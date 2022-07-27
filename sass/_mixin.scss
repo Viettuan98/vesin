@@ -33,7 +33,7 @@
 
 @mixin owl($leftright) {
   &.owl-carousel {
-    padding: 0 30px;
+    padding: 0 0px;
     .owl-nav button.owl-prev {
       background: transparent;
       border: 0;

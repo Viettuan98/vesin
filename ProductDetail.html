@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Danh mục sản phẩm</title>
+    <title>Chi tiết sản phẩm</title>
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -251,12 +251,17 @@
                     <p><strong>Công suất:</strong> 1050W</p>
                     <p><strong>Dung tích:</strong> 12 Gal (45 lít)</p>
                     <p>Giá chưa bao gồm VAT</p>
+                    <div class="add-to-cart">
+                      <div class="pull-left">
+                          <p class="mb-2"><strong>Số lượng:</strong></p> <span class="quantity"> <a href="#" class="minus">-</a> <input type="text" data-value="1" value="1" class="qtyval"> <a href="#" class="plus">+</a> <input type="hidden" id="qtyval" value="1"> </span>
+                      </div>
+                      <div class="pull-right"> <a href="javascript://" id="btnAddToCart" class="btn"> Mua ngay </a></div>
                   </div>
+                  </div>
+                  
                 </div>
                 <div class="row">
-                  <div
-                    class="product-detail-desc col-sm-12 col-md-12 col-xl-12"
-                  >
+                  <div class="product-detail-desc col-sm-12 col-md-12 col-xl-12">
                     <div class="product-detail-desc-heading">
                       <span>MÔ TẢ SẢN PHẨM</span>
                     </div>
@@ -347,7 +352,254 @@
                       </p>
                     </div>
                   </div>
+                  <div class="product-plus col-12 py-5">
+                    <div class="title">
+                        <h3>Sản phẩm cùng mức giá</h3>
+                    </div>
+                    <div class="sameprice_products owl-carousel owl-theme">
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/may-hut-bui-ridgid-wd0655nd-300x300.jpg"
+                              alt="Máy hút bụi công nghiệp cho ô tô, gia đình Ridgid WD0655ND"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html">
+                              Máy hút bụi công nghiệp cho ô tô, gia đình Ridgid
+                              WD0655ND
+                            </a>
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/may-hut-bui-ridgid-wd1255nd-300x300.jpg"
+                              alt="Máy hút bụi công nghiệp cho ô tô, gia đình Ridgid WD0655ND"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html"
+                              >Máy hút bụi công nghiệp cho ô tô, gia đình Ridgid
+                              WD1255ND</a
+                            >
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/may-hut-bui-ridgid-wd1685nd-300x300.jpg"
+                              alt="Máy hút bụi công nghiệp Ridgid WD1685ND"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html"
+                              >Máy hút bụi công nghiệp Ridgid WD1685ND</a
+                            >
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/WD4075KR_1-300x300.png"
+                              alt="Máy hút bụi ôtô Ridgid WD4075KR"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html"
+                              >Máy hút bụi ôtô Ridgid WD4075KR</a
+                            >
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/WD4075KR_1-300x300.png"
+                              alt="Máy hút bụi ôtô Ridgid WD4075KR"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html"
+                              >Máy hút bụi ôtô Ridgid WD4075KR</a
+                            >
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/WD4075KR_1-300x300.png"
+                              alt="Máy hút bụi ôtô Ridgid WD4075KR"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html"
+                              >Máy hút bụi ôtô Ridgid WD4075KR</a
+                            >
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-plus col-12 py-5">
+                    <div class="title">
+                        <h3>Sản phẩm liên quan</h3>
+                    </div>
+                    <div class="related_products owl-carousel owl-theme">
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/may-hut-bui-ridgid-wd0655nd-300x300.jpg"
+                              alt="Máy hút bụi công nghiệp cho ô tô, gia đình Ridgid WD0655ND"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html">
+                              Máy hút bụi công nghiệp cho ô tô, gia đình Ridgid
+                              WD0655ND
+                            </a>
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/may-hut-bui-ridgid-wd1255nd-300x300.jpg"
+                              alt="Máy hút bụi công nghiệp cho ô tô, gia đình Ridgid WD0655ND"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html"
+                              >Máy hút bụi công nghiệp cho ô tô, gia đình Ridgid
+                              WD1255ND</a
+                            >
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/may-hut-bui-ridgid-wd1685nd-300x300.jpg"
+                              alt="Máy hút bụi công nghiệp Ridgid WD1685ND"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html"
+                              >Máy hút bụi công nghiệp Ridgid WD1685ND</a
+                            >
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/WD4075KR_1-300x300.png"
+                              alt="Máy hút bụi ôtô Ridgid WD4075KR"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html"
+                              >Máy hút bụi ôtô Ridgid WD4075KR</a
+                            >
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/WD4075KR_1-300x300.png"
+                              alt="Máy hút bụi ôtô Ridgid WD4075KR"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html"
+                              >Máy hút bụi ôtô Ridgid WD4075KR</a
+                            >
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="box-product">
+                        <a href="/ProductDetail.html">
+                          <div class="box-product__image image-cover">
+                            <img
+                              src="./images/WD4075KR_1-300x300.png"
+                              alt="Máy hút bụi ôtô Ridgid WD4075KR"
+                            />
+                          </div>
+                          <h4 class="box-product__name">
+                            <a href="/ProductDetail.html"
+                              >Máy hút bụi ôtô Ridgid WD4075KR</a
+                            >
+                          </h4>
+                          <div class="box-product-price">
+                            <span class="box-product-price__current"> 180.000₫ </span>
+                            <del class="box-product-price__old"> 360.000 ₫ </del>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+               
               </div>
               <div class="product-detail-right col-sm-3 col-md-3 col-xl-3 d-none">
                 <div class="product-detail-right-news">
