@@ -971,22 +971,20 @@ p {
         border-radius: 2.5rem 0 2.5rem 0;
         background-color: $color-text;
         color: #fff;
-        .item-title {
+        &-title {
           padding-bottom: 2rem;
           font-size: 1.9rem;
         }
-        .item-content {
-          .item-address {
+        &-content {
+          p {
             color: #fff;
-            padding-bottom: 1.9rem;
+            padding-bottom: 1rem;
+            text-align: justify;
+            &:last-of-type{
+              padding-bottom: 0;
+            }
           }
-          .item-email {
-            color: #fff;
-            padding-bottom: 1.9rem;
-          }
-          .item-phone {
-            color: #fff;
-          }
+         
         }
       }
     }
@@ -1049,17 +1047,6 @@ p {
         text-transform: uppercase;
         margin-bottom: 1rem;
       }
-    }
-  }
-  .row-text-thanks{
-    margin-bottom: 3rem;
-    h3{
-      text-align: center;
-      font-size: 3.6rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-bottom: 3rem;
-      color: $color-text;
     }
   }
 }
@@ -1456,11 +1443,16 @@ p {
   }
   .popup-recruit{
     display: inline-block;
-    padding: 5px 20px;
-    margin-top: 1rem;
-    background: $secondery;
+    padding: 1rem 2rem;
+    background: #fba311;
     border-radius: 6px;
-    color:#fff
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    &:hover{
+      opacity: .8;
+    }
   }
 }
 .blog-wrapper {
@@ -1469,7 +1461,7 @@ p {
       margin-bottom: 1.5rem;
       border-bottom: 2px solid $color-text;
       span {
-        font-style: 1.6rem;
+        font-size: 1.6rem;
         font-weight: 500;
         padding: 8px 15px;
         background: $color-text;

@@ -1267,20 +1267,17 @@ p {
   background-color: #0f1133;
   color: #fff;
 }
-.page-contact .page-content .container .item .item-title {
+.page-contact .page-content .container .item-title {
   padding-bottom: 2rem;
   font-size: 1.9rem;
 }
-.page-contact .page-content .container .item .item-content .item-address {
+.page-contact .page-content .container .item-content p {
   color: #fff;
-  padding-bottom: 1.9rem;
+  padding-bottom: 1rem;
+  text-align: justify;
 }
-.page-contact .page-content .container .item .item-content .item-email {
-  color: #fff;
-  padding-bottom: 1.9rem;
-}
-.page-contact .page-content .container .item .item-content .item-phone {
-  color: #fff;
+.page-contact .page-content .container .item-content p:last-of-type {
+  padding-bottom: 0;
 }
 .page-contact .page-content .container-fluid {
   padding: 0;
@@ -1356,17 +1353,6 @@ p {
   color: #0f1133;
   text-transform: uppercase;
   margin-bottom: 1rem;
-}
-.page-contact .row-text-thanks {
-  margin-bottom: 3rem;
-}
-.page-contact .row-text-thanks h3 {
-  text-align: center;
-  font-size: 3.6rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 3rem;
-  color: #0f1133;
 }
 
 .customer1 {
@@ -1775,11 +1761,16 @@ p {
 }
 .recruit-item .popup-recruit {
   display: inline-block;
-  padding: 5px 20px;
-  margin-top: 1rem;
+  padding: 1rem 2rem;
   background: #fba311;
   border-radius: 6px;
   color: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.recruit-item .popup-recruit:hover {
+  opacity: 0.8;
 }
 
 .blog-wrapper .new-post-title {
@@ -1787,7 +1778,7 @@ p {
   border-bottom: 2px solid #0f1133;
 }
 .blog-wrapper .new-post-title span {
-  font-style: 1.6rem;
+  font-size: 1.6rem;
   font-weight: 500;
   padding: 8px 15px;
   background: #0f1133;
