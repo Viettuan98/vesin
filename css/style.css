@@ -2182,15 +2182,16 @@ p {
   padding: 1rem;
 }
 .product-detail .product-detail-left .product-detail-desc-heading {
-  border-bottom: 1px solid #4486bf;
+  border-bottom: 1px solid #0f1133;
 }
-.product-detail .product-detail-left .product-detail-desc-heading p {
-  padding: 5px 1rem;
-  background-color: #4486bf;
-  width: fit-content;
+.product-detail .product-detail-left .product-detail-desc-heading span {
+  padding: 10px 2rem;
+  background-color: #0f1133;
   color: #fff;
   font-size: 19px;
   margin: 0;
+  border-radius: 6px 6px 0 0;
+  display: inline-block;
 }
 .product-detail .product-detail-left .product-detail-desc-content {
   padding: 1.5rem;

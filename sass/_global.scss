@@ -1847,14 +1847,15 @@ p {
       margin-top: 3rem;
       padding: 1rem;
       &-heading{
-        border-bottom: 1px solid #4486bf;
-        p{
-          padding: 5px 1rem;
-          background-color: #4486bf;
-          width: fit-content;
+        border-bottom: 1px solid $color-text;
+        span{
+          padding: 10px 2rem;
+          background-color: $color-text;
           color: #fff;
           font-size: 19px;
           margin: 0;
+          border-radius: 6px 6px 0 0;
+          display: inline-block;
         }
       }
       &-content{
