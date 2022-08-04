@@ -1835,32 +1835,11 @@ p {
   height: 4.5rem;
   color: #999;
 }
-.recruit-item-info li {
-  position: relative;
-  padding: 5px 0 5px 20px;
+.recruit-item-info {
+  padding-right: 15rem;
+}
+.recruit-item-info p {
   color: #111;
-}
-.recruit-item-info li::before {
-  color: #fba311;
-  font-weight: 700;
-  position: absolute;
-  left: 0;
-}
-.recruit-item-info li span {
-  font-weight: 600;
-  color: #0f1133;
-}
-.recruit-item-info__address::before {
-  content: "\f3c5";
-  font-family: "Font Awesome 5 Pro";
-}
-.recruit-item-info__time::before {
-  content: "\f073";
-  font-family: "Font Awesome 5 Pro";
-}
-.recruit-item-info__price::before {
-  content: "\f2e8";
-  font-family: "Font Awesome 5 Pro";
 }
 .recruit-item .popup-recruit {
   display: inline-block;
@@ -2284,19 +2263,25 @@ p {
   margin-top: 3rem;
   padding: 1rem;
 }
-.product-detail .product-detail-left .product-detail-desc-heading {
+.product-detail .product-detail-left .product-detail-desc .nav {
   border-bottom: 1px solid #0f1133;
 }
-.product-detail .product-detail-left .product-detail-desc-heading span {
+.product-detail .product-detail-left .product-detail-desc .nav-item + .nav-item {
+  margin-left: 1rem;
+}
+.product-detail .product-detail-left .product-detail-desc .nav-link {
   padding: 10px 2rem;
-  background-color: #0f1133;
-  color: #fff;
+  color: #0f1133;
   font-size: 19px;
   margin: 0;
   border-radius: 6px 6px 0 0;
   display: inline-block;
 }
-.product-detail .product-detail-left .product-detail-desc-content {
+.product-detail .product-detail-left .product-detail-desc .nav-link.active {
+  background-color: #0f1133;
+  color: #fff;
+}
+.product-detail .product-detail-left .product-detail-desc .tab-pane {
   padding: 1.5rem;
   border: 1px solid #ddd;
   box-shadow: 2px 2px 2px #ddd;
@@ -2546,6 +2531,7 @@ p {
 .new-content-title h2 {
   font-size: 2.72rem;
   font-weight: 500;
+  color: #0f1133;
 }
 .new-content-date {
   color: grey;
@@ -2567,6 +2553,7 @@ p {
 .blog-recruit-single-content-title h2 {
   font-size: 2.72rem;
   font-weight: 500;
+  color: #0f1133;
 }
 .blog-recruit-single-content-date {
   color: grey;
